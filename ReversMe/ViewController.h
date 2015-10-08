@@ -8,8 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITextFieldDelegate>
 
+@property (weak, nonatomic) IBOutlet UILabel *cabecera;
+
+@property (weak, nonatomic) IBOutlet UITextField *texto;
+
+@property (weak, nonatomic) IBOutlet UIButton *boton;
+
+@property (weak, nonatomic) IBOutlet UILabel *mal;
 
 @end
 
